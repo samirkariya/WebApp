@@ -8,7 +8,7 @@
     <input type="text" id="ptitle" placeholder="Product title">
     <input type="number" id="pprice" placeholder="Product Price">
     <input type="text" id="pdesc" placeholder="Product Description">
-    <button onclick="add()">Add/Update</button>
+    <button onclick="save()">Add/Update</button>
     <br><br>
     <hr><br>
     <table border="1">
@@ -46,7 +46,7 @@
             })   
         }
         load();
-        function add(){
+        function save(){
             fetch(url+"/add",{
                 method:"POST",
                 headers:{'content-type':'application/json'},
