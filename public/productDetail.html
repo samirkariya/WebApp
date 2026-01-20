@@ -3,7 +3,7 @@
     <title>Product Detail</title>
 </head>
 <body>
-    <h1>Product CRUD APP12</h1>
+    <h1>Product CRUD APP</h1>
     <input type="number" id="pid" placeholder="Product ID">
     <input type="text" id="ptitle" placeholder="Product title">
     <input type="number" id="pprice" placeholder="Product Price">
@@ -26,6 +26,8 @@
 
     <script>
         const url="http://localhost:3000/products";
+        var editId="";
+
         function load(){
             fetch(url)
             .then(res=>res.json())
@@ -47,29 +49,53 @@
         }
         load();
         function save(){
-            fetch(url+"/add",{
-                method:"POST",
-                headers:{'content-type':'application/json'},
-                body:JSON.stringify({
-                    productId:pid.value,
-                    productTitle:ptitle.value,
-                    productPrice:pprice.value,
-                    productDesc:pdesc.value
+            if(editId===""){
+                fetch(url+"/add",{
+                    method:"POST",
+                    headers:{'content-type':'application/json'},
+                    body:JSON.stringify({
+                        productId:pid.value,
+                        productTitle:ptitle.value,
+                        productPrice:pprice.value,
+                        productDesc:pdesc.value
+                    })
                 })
-            })
-            .then(()=>{
-                pid.value="";
-                ptitle.value="";
-                pprice.value="";
-                pdesc.value="";
-                load()
-            });
+                .then(()=>{
+                    pid.value="";
+                    ptitle.value="";
+                    pprice.value="";
+                    pdesc.value="";
+                    load()
+                });
+            }
+            else{
+                fetch(url+"/"+editId,{
+                    method:"PUT",
+                    headers:{'content-type':'application/json'},
+                    body:JSON.stringify({
+                        productId:pid.value,
+                        productTitle:ptitle.value,
+                        productPrice:pprice.value,
+                        productDesc:pdesc.value
+                    })
+                })
+                .then(()=>{
+                    document.getElementById('pid').disabled=false;
+                    pid.value="";
+                    ptitle.value="";
+                    pprice.value="";
+                    pdesc.value="";
+                    load();
+                    
+                })
+            }
         }
         function del(id){
             fetch(url+"/"+id,{method:"DELETE" })
             .then(()=>load());
         }
         function edit(id,t,p,d){
+            editId=id;
             pid.value=id;
             document.getElementById('pid').disabled=true;
             ptitle.value=t;
