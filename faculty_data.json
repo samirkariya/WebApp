@@ -1,0 +1,61 @@
+[
+  { "id": 1, "name": "Dr. Amit Sharma", "department": "CSE", "designation": "Professor", "email": "amit.sharma@college.edu" },
+  { "id": 2, "name": "Ms. Neha Patel", "department": "IT", "designation": "Assistant Professor", "email": "neha.patel@college.edu" },
+  { "id": 3, "name": "Mr. Rahul Mehta", "department": "ECE", "designation": "Associate Professor", "email": "rahul.mehta@college.edu" },
+  { "id": 4, "name": "Dr. Priya Iyer", "department": "CSE", "designation": "Professor", "email": "priya.iyer@college.edu" },
+  { "id": 5, "name": "Mr. Suresh Kumar", "department": "ME", "designation": "Assistant Professor", "email": "suresh.kumar@college.edu" },
+
+  { "id": 6, "name": "Ms. Anjali Verma", "department": "CSE", "designation": "Assistant Professor", "email": "anjali.verma@college.edu" },
+  { "id": 7, "name": "Dr. Rakesh Singh", "department": "IT", "designation": "Professor", "email": "rakesh.singh@college.edu" },
+  { "id": 8, "name": "Mr. Kunal Joshi", "department": "ECE", "designation": "Assistant Professor", "email": "kunal.joshi@college.edu" },
+  { "id": 9, "name": "Ms. Pooja Nair", "department": "CSE", "designation": "Associate Professor", "email": "pooja.nair@college.edu" },
+  { "id": 10, "name": "Dr. Manoj Desai", "department": "CE", "designation": "Professor", "email": "manoj.desai@college.edu" },
+
+  { "id": 11, "name": "Ms. Rina Shah", "department": "IT", "designation": "Assistant Professor", "email": "rina.shah@college.edu" },
+  { "id": 12, "name": "Dr. Arvind Rao", "department": "CSE", "designation": "Professor", "email": "arvind.rao@college.edu" },
+  { "id": 13, "name": "Mr. Deepak Malhotra", "department": "ME", "designation": "Associate Professor", "email": "deepak.m@college.edu" },
+  { "id": 14, "name": "Ms. Kavita Kulkarni", "department": "ECE", "designation": "Assistant Professor", "email": "kavita.k@college.edu" },
+  { "id": 15, "name": "Dr. Sunita Bose", "department": "CSE", "designation": "Professor", "email": "sunita.bose@college.edu" },
+
+  { "id": 16, "name": "Mr. Harsh Patel", "department": "IT", "designation": "Assistant Professor", "email": "harsh.patel@college.edu" },
+  { "id": 17, "name": "Ms. Aditi Chawla", "department": "CSE", "designation": "Assistant Professor", "email": "aditi.chawla@college.edu" },
+  { "id": 18, "name": "Dr. Nitin Kulkarni", "department": "ME", "designation": "Professor", "email": "nitin.k@college.edu" },
+  { "id": 19, "name": "Mr. Rohit Agarwal", "department": "ECE", "designation": "Associate Professor", "email": "rohit.a@college.edu" },
+  { "id": 20, "name": "Ms. Sneha Roy", "department": "IT", "designation": "Assistant Professor", "email": "sneha.roy@college.edu" },
+
+  { "id": 21, "name": "Dr. Vikram Menon", "department": "CSE", "designation": "Professor", "email": "vikram.m@college.edu" },
+  { "id": 22, "name": "Ms. Nisha Kapoor", "department": "CE", "designation": "Assistant Professor", "email": "nisha.k@college.edu" },
+  { "id": 23, "name": "Mr. Ajay Yadav", "department": "ME", "designation": "Assistant Professor", "email": "ajay.y@college.edu" },
+  { "id": 24, "name": "Dr. Pankaj Jain", "department": "IT", "designation": "Professor", "email": "pankaj.j@college.edu" },
+  { "id": 25, "name": "Ms. Meenal Gupta", "department": "CSE", "designation": "Associate Professor", "email": "meenal.g@college.edu" },
+
+  { "id": 26, "name": "Mr. Sameer Khan", "department": "ECE", "designation": "Assistant Professor", "email": "sameer.k@college.edu" },
+  { "id": 27, "name": "Dr. Alok Mishra", "department": "ME", "designation": "Professor", "email": "alok.m@college.edu" },
+  { "id": 28, "name": "Ms. Ruchi Saxena", "department": "IT", "designation": "Assistant Professor", "email": "ruchi.s@college.edu" },
+  { "id": 29, "name": "Mr. Vinayak Joshi", "department": "CSE", "designation": "Assistant Professor", "email": "vinayak.j@college.edu" },
+  { "id": 30, "name": "Dr. Shilpa Rao", "department": "ECE", "designation": "Professor", "email": "shilpa.r@college.edu" },
+
+  { "id": 31, "name": "Ms. Priti Malhotra", "department": "IT", "designation": "Associate Professor", "email": "priti.m@college.edu" },
+  { "id": 32, "name": "Mr. Karthik Reddy", "department": "CSE", "designation": "Assistant Professor", "email": "karthik.r@college.edu" },
+  { "id": 33, "name": "Dr. Anil Verma", "department": "ME", "designation": "Professor", "email": "anil.v@college.edu" },
+  { "id": 34, "name": "Ms. Divya Arora", "department": "ECE", "designation": "Assistant Professor", "email": "divya.a@college.edu" },
+  { "id": 35, "name": "Mr. Sandeep Jain", "department": "CE", "designation": "Associate Professor", "email": "sandeep.j@college.edu" },
+
+  { "id": 36, "name": "Dr. Mohit Bansal", "department": "CSE", "designation": "Professor", "email": "mohit.b@college.edu" },
+  { "id": 37, "name": "Ms. Shweta Pandey", "department": "IT", "designation": "Assistant Professor", "email": "shweta.p@college.edu" },
+  { "id": 38, "name": "Mr. Ashish Tiwari", "department": "ME", "designation": "Assistant Professor", "email": "ashish.t@college.edu" },
+  { "id": 39, "name": "Dr. Reena Das", "department": "ECE", "designation": "Professor", "email": "reena.d@college.edu" },
+  { "id": 40, "name": "Ms. Komal Jain", "department": "CSE", "designation": "Associate Professor", "email": "komal.j@college.edu" },
+
+  { "id": 41, "name": "Mr. Abhishek Soni", "department": "IT", "designation": "Assistant Professor", "email": "abhishek.s@college.edu" },
+  { "id": 42, "name": "Dr. Harini Subramaniam", "department": "CSE", "designation": "Professor", "email": "harini.s@college.edu" },
+  { "id": 43, "name": "Ms. Tanvi Deshpande", "department": "ECE", "designation": "Assistant Professor", "email": "tanvi.d@college.edu" },
+  { "id": 44, "name": "Mr. Nilesh Patil", "department": "ME", "designation": "Associate Professor", "email": "nilesh.p@college.edu" },
+  { "id": 45, "name": "Dr. Kiran Kulkarni", "department": "IT", "designation": "Professor", "email": "kiran.k@college.edu" },
+
+  { "id": 46, "name": "Ms. Aparna Joshi", "department": "CSE", "designation": "Assistant Professor", "email": "aparna.j@college.edu" },
+  { "id": 47, "name": "Mr. Rohan Malviya", "department": "ECE", "designation": "Assistant Professor", "email": "rohan.m@college.edu" },
+  { "id": 48, "name": "Dr. Shashank Gupta", "department": "ME", "designation": "Professor", "email": "shashank.g@college.edu" },
+  { "id": 49, "name": "Ms. Isha Bhat", "department": "IT", "designation": "Associate Professor", "email": "isha.b@college.edu" },
+  { "id": 50, "name": "Dr. Pradeep Nair", "department": "CSE", "designation": "Professor", "email": "pradeep.n@college.edu" }
+]
